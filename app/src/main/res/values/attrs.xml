@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView1">
+        <attr name="circle_border_width1" format="dimension" />
+        <attr name="circle_border_color1" format="color" />
+        <attr name="circle_border_overlay1" format="boolean" />
+        <attr name="circle_fill_color1" format="color" />
+        <attr name="circle_circle_background_color1" format="color" />
+    </declare-styleable>
+</resources>
