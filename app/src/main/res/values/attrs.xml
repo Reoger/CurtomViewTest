@@ -7,4 +7,18 @@
         <attr name="circle_fill_color1" format="color" />
         <attr name="circle_circle_background_color1" format="color" />
     </declare-styleable>
+    <declare-styleable name="CircleImageView2">
+        <attr name="circle_border_width2" format="dimension" />
+        <attr name="circle_border_color2" format="color" />
+        <attr name="circle_border_overlay2" format="boolean" />
+        <attr name="circle_fill_color2" format="color" />
+        <attr name="circle_circle_background_color2" format="color" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView3">
+        <attr name="circle_border_width3" format="dimension" />
+        <attr name="circle_border_color3" format="color" />
+        <attr name="circle_border_overlay3" format="boolean" />
+        <attr name="circle_fill_color3" format="color" />
+        <attr name="circle_circle_background_color3" format="color" />
+    </declare-styleable>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.cm.circleview.view;
+package com.example.cm.circleview.view1;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 
 /**
+ *
  * Created by luojie on 2018/8/3.
  */
 

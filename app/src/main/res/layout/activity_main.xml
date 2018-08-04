@@ -13,24 +13,57 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <com.example.cm.circleview.view.CircleImageView1
+        <com.example.cm.circleview.view1.CircleImageView1
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:id="@+id/image_id1"
             android:layout_width="200dp"
             android:layout_height="200dp" />
 
-        <com.example.cm.circleview.view.CircleImageView2
+        <com.example.cm.circleview.view1.CircleImageView2
             android:layout_marginBottom="10dp"
             android:id="@+id/image_id2"
             android:layout_width="200dp"
             android:layout_height="200dp" />
-        <com.example.cm.circleview.view.CircleImageView3
+        <com.example.cm.circleview.view1.CircleImageView3
             android:id="@+id/image_id3"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
             android:layout_width="200dp"
             android:layout_height="200dp" />
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#fff"/>
+
+        <com.example.cm.circleview.view2.CircleImageView1
+            android:id="@+id/image2_id1"
+            app:circle_border_width1="5dp"
+            app:circle_border_color1="#fff"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <com.example.cm.circleview.view2.CircleImageView2
+            android:id="@+id/image2_id2"
+            app:circle_border_width2="5dp"
+            app:circle_border_color2="#fff"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <com.example.cm.circleview.view2.CircleImageView3
+            android:id="@+id/image2_id3"
+            app:circle_border_width3="5dp"
+            app:circle_border_color3="#fff"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
     </LinearLayout>
 
 </ScrollView>

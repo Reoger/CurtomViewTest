@@ -1,4 +1,4 @@
-package com.example.cm.circleview.view;
+package com.example.cm.circleview.view1;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -29,7 +29,7 @@ public class CircleImageView1 extends ImageView {
     private Shape mShape;
     private float mRadius;
 
-    private float[] outerRadii = new float[8];;
+    private float[] outerRadii = new float[8];
 
     public CircleImageView1(Context context) {
         this(context,null);
@@ -41,15 +41,10 @@ public class CircleImageView1 extends ImageView {
 
     public CircleImageView1(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        initView(attrs);
+        initView();
     }
 
-    private void initView(AttributeSet attrs) {
-        if (attrs != null){
-            TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.CircleImageView1);
-            // 这里的代码
-            a.recycle();
-        }
+    private void initView() {
         setLayerType(LAYER_TYPE_HARDWARE,null);
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mPaint.setColor(Color.BLACK);

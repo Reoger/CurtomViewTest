@@ -3,9 +3,9 @@ package com.example.cm.circleview;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.cm.circleview.view.CircleImageView1;
-import com.example.cm.circleview.view.CircleImageView2;
-import com.example.cm.circleview.view.CircleImageView3;
+import com.example.cm.circleview.view1.CircleImageView1;
+import com.example.cm.circleview.view1.CircleImageView2;
+import com.example.cm.circleview.view1.CircleImageView3;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,5 +25,13 @@ public class MainActivity extends AppCompatActivity {
         CircleImageView3 circleImageView3 =findViewById(R.id.image_id3);
         circleImageView3.build(URL);
 
+        com.example.cm.circleview.view2.CircleImageView1 circleImageView21 = findViewById(R.id.image2_id1);
+        circleImageView21.build(URL);
+
+        com.example.cm.circleview.view2.CircleImageView2 circleImageView22 = findViewById(R.id.image2_id2);
+        circleImageView22.build(URL);
+
+        com.example.cm.circleview.view2.CircleImageView3 circleImageView23 = findViewById(R.id.image2_id3);
+        circleImageView23.build(URL);
     }
 }
