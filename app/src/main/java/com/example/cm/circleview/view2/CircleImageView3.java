@@ -14,7 +14,9 @@ import com.bumptech.glide.Glide;
 import com.example.cm.circleview.R;
 
 /**
- * Created by luojie on 2018/8/4.
+ *
+ * @author luojie
+ * @date 2018/8/4
  * 方式3. 使用clipPath 方式实现圆框效果
  */
 

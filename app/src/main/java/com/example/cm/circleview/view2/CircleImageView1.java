@@ -21,7 +21,9 @@ import com.example.cm.circleview.R;
 import java.util.Arrays;
 
 /**
- * Created by luojie on 2018/8/2.
+ *
+ * @author luojie
+ * @date 2018/8/2
  * way 1. to use PorterDuffxfermode to show the photo
  * 实现加边框的效果
  */
@@ -115,8 +117,9 @@ public class CircleImageView1 extends ImageView {
             //1.绘制外边框颜色的正方形
             mBorderPaint.setXfermode(null);
             canvas.drawBitmap(mBorderBitmap, 0, 0, mBorderPaint);
-            //2.绘制减去边框长度的图片，模式为DST_OUT
+            //2.适当画布的中心位置
             canvas.translate(mBorderWidth, mBorderWidth);
+            //3.绘制减去边框长度的图片，模式为DST_OUT
             mBorderPaint.setXfermode(mBorderDuffMode);
             mBorderShape.draw(canvas, mBorderPaint);
             canvas.restoreToCount(i);
@@ -134,7 +137,9 @@ public class CircleImageView1 extends ImageView {
         int w = getMeasuredWidth();
         int h = getMeasuredHeight();
 
-        if (w == 0 || h == 0) return;
+        if (w == 0 || h == 0) {
+            return;
+        }
 
         releaseBorderBitmap();
 
